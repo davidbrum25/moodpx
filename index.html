@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moodpx - AI Pixel Art Fixer</title>
 
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Import Map for React & Lucide -->
     <script type="importmap">
     {
       "imports": {
@@ -19,10 +17,9 @@
     }
     </script>
 
-    <!-- Babel for JSX compilation in browser -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <link rel="icon" href="https://raw.githubusercontent.com/davidbrum25/moodsprite/refs/heads/main/moodsprite_fav_icon_alternative.png" type="image/png">
+    <link rel="icon" href="https://raw.githubusercontent.com/davidbrum25/moodpx/main/fav_icon_alternative.png" type="image/png">
 
     <style>
         /* Dark mode scrollbar */
@@ -419,14 +416,18 @@
 
                     {/* Navbar */}
                     <nav className="border-b border-zinc-800 bg-black sticky top-0 z-20">
-                        <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+                        {/* h-14 is 3.5rem */}
+                        <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
                             <div className="flex items-center gap-3">
-                                <div className="w-8 h-8 bg-zinc-100 rounded-lg flex items-center justify-center">
-                                    <Layers className="w-5 h-5 text-black" />
-                                </div>
-                                <h1 className="text-xl font-bold text-white tracking-tight">Moodpx</h1>
+                                {/* New Icon */}
+                                <img
+                                    src="https://raw.githubusercontent.com/davidbrum25/moodpx/main/fav_icon_alternative.png"
+                                    alt="Moodpx Logo"
+                                    className="w-7 h-7"
+                                />
+                                <h1 className="text-lg font-bold text-white tracking-tight">Moodpx</h1>
                             </div>
-                            <div className="text-xs text-zinc-500 font-medium border border-zinc-800 px-3 py-1 rounded-full hidden sm:block">
+                            <div className="text-[10px] text-zinc-500 font-medium border border-zinc-800 px-3 py-1 rounded-full hidden sm:block">
                                 AI PIXEL ART FIXER
                             </div>
                         </div>
@@ -696,17 +697,17 @@
                     {/* Footer */}
                     <footer className="border-t border-zinc-900 bg-black py-4 px-6 fixed bottom-0 w-full z-30">
                         <div className="max-w-7xl mx-auto flex items-center justify-between">
-                            <span className="text-xs font-mono text-zinc-500">
+                            <span className="text-sm font-medium text-zinc-600">
                                 Moodpx Current stable version: v1.0.0
                             </span>
                             <div className="flex items-center gap-3">
-                                <a href="https://www.patreon.com/cw/bdvd" className="w-8 h-8 rounded-full bg-zinc-900 flex items-center justify-center text-zinc-400 hover:bg-zinc-800 hover:text-white transition-all border border-zinc-800">
-                                    <PatreonIcon className="w-3.5 h-3.5" />
+                                <a href="https://www.patreon.com/cw/bdvd" className="w-9 h-9 rounded-full bg-zinc-900 flex items-center justify-center text-zinc-400 hover:bg-zinc-800 hover:text-white transition-all border border-zinc-800">
+                                    <PatreonIcon className="w-4 h-4" />
                                 </a>
-                                <a href="https://linktr.ee/davidbrum" className="w-8 h-8 rounded-full bg-zinc-900 flex items-center justify-center text-zinc-400 hover:bg-zinc-800 hover:text-white transition-all border border-zinc-800">
-                                    <LinkIcon className="w-3.5 h-3.5" />
+                                <a href="https://linktr.ee/davidbrum" className="w-9 h-9 rounded-full bg-zinc-900 flex items-center justify-center text-zinc-400 hover:bg-zinc-800 hover:text-white transition-all border border-zinc-800">
+                                    <LinkIcon className="w-4 h-4" />
                                 </a>
-                                <a href="https://github.com/davidbrum25/moodpx" className="w-8 h-8 rounded-full bg-zinc-900 flex items-center justify-center text-zinc-400 hover:bg-zinc-800 hover:text-white transition-all border border-zinc-800">
+                                <a href="https://github.com/davidbrum25/moodpx" className="w-9 h-9 rounded-full bg-zinc-900 flex items-center justify-center text-zinc-400 hover:bg-zinc-800 hover:text-white transition-all border border-zinc-800">
                                     <Github className="w-4 h-4" />
                                 </a>
                             </div>
