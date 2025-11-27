@@ -14,15 +14,9 @@
 * **Mobile-First Responsive Design:** Fully optimized layout that adapts gracefully to mobile screens, tablets, and desktops.
 * **Ecosystem Navigation:** Integrated footer providing quick access to the complete family of Mood apps.
 
-## 📱 Screenshots
-
-| Mobile View | Desktop View |
-|:---:|:---:|
-| ![Mobile UI](assets/mobile-preview.png) | ![Desktop UI](assets/desktop-preview.png) |
-
 ## 🌐 Related Projects
 
-Moodpx is part of a trilogy of applications. You can access the other tools here:
+Moodpx is part of a set of applications. You can access the other tools here:
 
 * **[Moodinfinite](https://davidbrum25.github.io/moodinfinite/index.html)** - Infinite mood exploration.
 * **[Moodsprite](https://davidbrum25.github.io/moodsprite/index.html)** - Sprite-based mood visualization.
@@ -47,3 +41,4 @@ To run this project locally:
 ## 📄 License
 
 This project is available for personal and educational use.
+
